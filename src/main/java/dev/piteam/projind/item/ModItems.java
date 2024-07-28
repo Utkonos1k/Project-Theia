@@ -10,7 +10,6 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(PI.MOD_ID);
     public static final DeferredItem<Item> SUPER_GUANNO = ITEMS.register("super_guanno", () -> new Item(new Item.Properties()
-            .stacksTo(2048)
-            .food()));
+            .stacksTo(2048)));
 
 }

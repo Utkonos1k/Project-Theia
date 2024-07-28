@@ -15,7 +15,6 @@ public class ModBlock {
 
     public static final DeferredBlock<Block> Tin_ore = BLOCKS.registerSimpleBlock("tin_ore", BlockBehaviour.Properties.of()
             .destroyTime(300.0f)
-            .
     );
 
 }
