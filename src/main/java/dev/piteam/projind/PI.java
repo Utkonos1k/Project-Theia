@@ -22,7 +22,7 @@ import net.neoforged.neoforge.event.server.ServerStartingEvent;
 @Mod(PI.MOD_ID)
 public class PI {
 
-    public static final String MOD_ID = "projind";
+    public static final String MOD_ID = "pi";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
