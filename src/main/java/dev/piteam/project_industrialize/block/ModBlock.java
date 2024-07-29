@@ -23,5 +23,12 @@ public class ModBlock {
             .explosionResistance(2.0f)
 
     );
+    public static final  DeferredBlock<Block> TIN_BLOCK = BLOCKS.registerSimpleBlock("tin_block", BlockBehaviour.Properties.of()
+
+            .sound(SoundType.METAL)
+            .destroyTime(6.0f)
+            .explosionResistance(2.0f)
+
+    );
 
 }
