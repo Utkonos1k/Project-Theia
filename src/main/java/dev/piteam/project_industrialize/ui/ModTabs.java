@@ -16,7 +16,7 @@ public class ModTabs {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_IND_TAB =
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_IND_ITEM_TAB =
             CREATIVE_TABS.register("project_industrialize_item_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("ItemGroup.project_industrialize_item_tab"))
                     .withTabsBefore(CreativeModeTabs.COMBAT)
@@ -28,6 +28,17 @@ public class ModTabs {
                         output.accept(ModBlockItems.TIN_ORE.get());
                         output.accept(ModBlockItems.TIN_BLOCK.get());
                         output.accept(ModItems.TIN_INGOT.get());
+                    }).build());
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_IND_BLOCK_TAB =
+            CREATIVE_TABS.register("project_industrialize_block_tab", () -> CreativeModeTab.builder()
+                    .title(Component.translatable("ItemGroup.project_industrialize_block_tab"))
+                    .withTabsBefore(CreativeModeTabs.COMBAT)
+                    .icon(() -> ModBlockItems.TIN_BLOCK.get().getDefaultInstance())
+                    .displayItems((parametrs, output) -> {
+
+
+
+
                     }).build());
 
 }
