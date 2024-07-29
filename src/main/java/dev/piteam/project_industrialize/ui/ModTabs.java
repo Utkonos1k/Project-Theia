@@ -22,10 +22,10 @@ public class ModTabs {
                     .icon(() -> ModItems.TIN_INGOT.get().getDefaultInstance())
                     .displayItems((parametrs, output) -> {
 
-                        //template output.accept(Item.get());
+                        //template output.accept(ModItem.//ITEM_NAME//.get());
 
-                        output.accept(ModBlockItems.TIN_ORE.get());
                         output.accept(ModItems.TIN_INGOT.get());
+
                     }).build());
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_IND_BLOCK_TAB =
             CREATIVE_TABS.register("project_industrialize_block_tab", () -> CreativeModeTab.builder()
@@ -33,7 +33,10 @@ public class ModTabs {
                     .icon(() -> ModBlockItems.TIN_BLOCK.get().getDefaultInstance())
                     .displayItems((parametrs, output) -> {
 
+//                        output.accept(ModBlockItems.//BLOCK_NAME//.get());
+
                         output.accept(ModBlockItems.TIN_BLOCK.get());
+                        output.accept(ModBlockItems.TIN_ORE.get());
 
                     }).build());
 
