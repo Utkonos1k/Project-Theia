@@ -1,4 +1,4 @@
-package dev.piteam.projind;
+package dev.piteam.project_industrialize.main;
 
 import java.util.List;
 import java.util.Set;

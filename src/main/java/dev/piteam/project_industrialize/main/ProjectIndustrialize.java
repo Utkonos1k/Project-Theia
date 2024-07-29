@@ -1,16 +1,15 @@
-package dev.piteam.projind;
+package dev.piteam.project_industrialize.main;
 
-import dev.piteam.projind.block.ModBlock;
-import dev.piteam.projind.item.ModItems;
+import dev.piteam.project_industrialize.block.ModBlock;
+import dev.piteam.project_industrialize.item.ModBlockItems;
+import dev.piteam.project_industrialize.item.ModItems;
+import dev.piteam.project_industrialize.ui.ModTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -23,7 +22,6 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 
@@ -35,11 +33,6 @@ public class ProjectIndustrialize
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(MOD_ID);
-
-
-
-    public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
 
 //    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
@@ -52,9 +45,11 @@ public class ProjectIndustrialize
 
         ModBlock.BLOCKS.register(modEventBus);
 
+        ModBlockItems.ITEMS.register(modEventBus);
+
         ModItems.ITEMS.register(modEventBus);
 
-        CREATIVE_MODE_TABS.register(modEventBus);
+        ModTabs.CREATIVE_TABS.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
