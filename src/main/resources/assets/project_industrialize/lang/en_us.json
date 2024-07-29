@@ -6,7 +6,5 @@
   "block.project_industrialize.tin_block": "Tin Block",
 
   "ItemGroup.project_industrialize_item_tab": "PI Items",
-  "ItemGroup.project_industrialize_block_tab": "PI Block",
-  "BlockGroup.project_industrialize": "PI Blocks"
-
+  "ItemGroup.project_industrialize_block_tab": "PI Block"
 }
