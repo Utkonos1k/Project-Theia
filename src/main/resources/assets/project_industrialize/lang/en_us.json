@@ -3,6 +3,7 @@
   "item.project_industrialize.tin_ingot": "Tin ingot",
 
   "block.project_industrialize.tin_ore": "Tin ore",
+  "block.project_industrialize.tin.block": "Tin Block",
 
   "ItemGroup.project_industrialize_item_tab": "PI Items",
   "BlockGroup.project_industrialize": "PI blocks"

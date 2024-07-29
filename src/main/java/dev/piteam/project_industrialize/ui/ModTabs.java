@@ -22,8 +22,11 @@ public class ModTabs {
                     .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> ModItems.TIN_INGOT.get().getDefaultInstance())
                     .displayItems((parametrs, output) -> {
+
                         //template output.accept(Item.get());
+
                         output.accept(ModBlockItems.TIN_ORE.get());
+                        output.accept(ModBlockItems.TIN_BLOCK.get());
                         output.accept(ModItems.TIN_INGOT.get());
                     }).build());
 

@@ -24,7 +24,6 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-
 @Mod(ProjectIndustrialize.MOD_ID)
 public class ProjectIndustrialize
 {
