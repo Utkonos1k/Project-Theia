@@ -28,6 +28,7 @@ public class ModBlock {
             .sound(SoundType.METAL)
             .destroyTime(6.0f)
             .explosionResistance(2.0f)
+            .friction(100.0f)
 
     );
 
