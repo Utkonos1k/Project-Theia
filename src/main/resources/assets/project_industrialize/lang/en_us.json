@@ -1,6 +1,7 @@
 {
 
   "item.project_industrialize.tin_ingot": "Tin ingot",
+  "item.project_industrialize.raw_tin": "Raw tin",
 
   "block.project_industrialize.tin_ore": "Tin ore",
   "block.project_industrialize.tin_block": "Tin Block",

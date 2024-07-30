@@ -25,6 +25,7 @@ public class ModTabs {
                         //template output.accept(ModItem.//ITEM_NAME//.get());
 
                         output.accept(ModItems.TIN_INGOT.get());
+                        output.accept(ModBlockItems.RAW_TIN.get());
 
                     }).build());
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_IND_BLOCK_TAB =
