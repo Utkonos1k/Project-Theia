@@ -5,7 +5,7 @@
   "experience": 1.0,
   "group": "tin_ingot",
   "ingredient": {
-    "item": "project_industrialize:raw_tin"
+    "item": "project_industrialize:tin_ore"
   },
   "result": {
     "id": "project_industrialize:tin_ingot"
