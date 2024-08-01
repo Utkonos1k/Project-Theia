@@ -1,9 +1,9 @@
 {
 
-  "item.project_industrialize.tin_ingot": "Tin ingot",
-  "item.project_industrialize.raw_tin": "Raw tin",
+  "item.project_industrialize.tin_ingot": "Tin Ingot",
+  "item.project_industrialize.raw_tin": "Raw Tin",
 
-  "block.project_industrialize.tin_ore": "Tin ore",
+  "block.project_industrialize.tin_ore": "Tin Ore",
   "block.project_industrialize.tin_block": "Tin Block",
 
   "ItemGroup.project_industrialize_item_tab": "PI Items",
