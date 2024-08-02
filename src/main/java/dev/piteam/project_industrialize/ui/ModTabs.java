@@ -38,6 +38,7 @@ public class ModTabs {
 
                         output.accept(ModBlockItems.TIN_BLOCK.get());
                         output.accept(ModBlockItems.TIN_ORE.get());
+                        output.accept(ModBlockItems.DEEPSLATE_TIN_ORE.get());
 
                     }).build());
 
