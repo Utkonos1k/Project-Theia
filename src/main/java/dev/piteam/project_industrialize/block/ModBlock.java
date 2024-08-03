@@ -19,16 +19,18 @@ public class ModBlock {
     public static final DeferredBlock<Block> TIN_ORE = BLOCKS.registerSimpleBlock("tin_ore", BlockBehaviour.Properties.of()
 
             .sound(SoundType.STONE)
-            .destroyTime(6.0f)
-            .explosionResistance(2.0f)
+            .destroyTime(3.0f)
+            .explosionResistance(10.0f)
+            .requiresCorrectToolForDrops()
 
     );
 
     public static final  DeferredBlock<Block> DEEPSLATE_TIN_ORE = BLOCKS.registerSimpleBlock("deepslate_tin_ore", BlockBehaviour.Properties.of()
 
             .sound(SoundType.STONE)
-            .destroyTime(9.0f)
-            .explosionResistance(2.0f)
+            .destroyTime(3.0f)
+            .explosionResistance(10.0f)
+            .requiresCorrectToolForDrops()
 
     );
 
@@ -37,8 +39,9 @@ public class ModBlock {
     public static final  DeferredBlock<Block> TIN_BLOCK = BLOCKS.registerSimpleBlock("tin_block", BlockBehaviour.Properties.of()
 
             .sound(SoundType.STONE)
-            .destroyTime(6.0f)
-            .explosionResistance(2.0f)
+            .destroyTime(3.0f)
+            .explosionResistance(10.0f)
+            .requiresCorrectToolForDrops()
 
     );
 
