@@ -1,9 +1,9 @@
 {
-  "feature": "minecraft:ore_iron_small",
+  "feature": "project_industrialize:tin_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 10
+      "count": 120
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 72
+          "absolute": 368
         },
         "min_inclusive": {
-          "above_bottom": 0
+          "absolute": -64
         }
       }
     },
