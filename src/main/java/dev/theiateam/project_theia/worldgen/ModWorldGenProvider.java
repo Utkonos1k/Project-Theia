@@ -1,8 +1,8 @@
-package dev.piteam.project_theia.worldgen;
+package dev.theiateam.project_theia.worldgen;
 
-import dev.piteam.project_theia.main.ProjectIndustrialize;
-import dev.piteam.project_theia.worldgen.ore.ModConfiguredFeatures;
-import dev.piteam.project_theia.worldgen.ore.ModPlacedFeatures;
+import dev.theiateam.project_theia.main.ProjectTheia;
+import dev.theiateam.project_theia.worldgen.ore.ModConfiguredFeatures;
+import dev.theiateam.project_theia.worldgen.ore.ModPlacedFeatures;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;
@@ -20,7 +20,7 @@ public class ModWorldGenProvider extends DatapackBuiltinEntriesProvider {
                 .add(Registries.CONFIGURED_FEATURE, ModConfiguredFeatures::boostrap)
                 .add(Registries.PLACED_FEATURE, ModPlacedFeatures::bootstrap)
                 .add(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ModBiomeModifiers::bootstrap),
-                Set.of(ProjectIndustrialize.MOD_ID));
+                Set.of(ProjectTheia.MOD_ID));
 
     }
 }

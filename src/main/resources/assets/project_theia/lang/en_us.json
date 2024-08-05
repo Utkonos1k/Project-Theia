@@ -1,12 +1,12 @@
 {
 
-  "item.project_industrialize.tin_ingot": "Tin Ingot",
-  "item.project_industrialize.raw_tin": "Raw Tin",
+  "item.project_theia.tin_ingot": "Tin Ingot",
+  "item.project_theia.raw_tin": "Raw Tin",
 
-  "block.project_industrialize.deepslate_tin_ore": "Deepslate Tin Ore",
-  "block.project_industrialize.tin_ore": "Tin Ore",
-  "block.project_industrialize.tin_block": "Tin Block",
+  "block.project_theia.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.project_theia.tin_ore": "Tin Ore",
+  "block.project_theia.tin_block": "Tin Block",
 
-  "ItemGroup.project_industrialize_item_tab": "PI Items",
-  "ItemGroup.project_industrialize_block_tab": "PI Block"
+  "ItemGroup.project_theia_item_tab": "PT Items",
+  "ItemGroup.project_theia_block_tab": "PT Block"
 }

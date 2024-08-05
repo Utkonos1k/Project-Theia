@@ -1,4 +1,4 @@
-package dev.piteam.project_theia.worldgen.ore;
+package dev.theiateam.project_theia.worldgen.ore;
 
 import net.minecraft.world.level.levelgen.placement.*;
 

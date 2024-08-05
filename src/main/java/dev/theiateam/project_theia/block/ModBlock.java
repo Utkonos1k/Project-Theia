@@ -1,6 +1,6 @@
-package dev.piteam.project_theia.block;
+package dev.theiateam.project_theia.block;
 
-import dev.piteam.project_theia.main.ProjectIndustrialize;
+import dev.theiateam.project_theia.main.ProjectTheia;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
@@ -12,7 +12,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModBlock {
 
 
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ProjectIndustrialize.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ProjectTheia.MOD_ID);
 
     public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE).destroyTime(-1f));
 

@@ -1,7 +1,7 @@
-package dev.piteam.project_theia.worldgen;
+package dev.theiateam.project_theia.worldgen;
 
-import dev.piteam.project_theia.main.ProjectIndustrialize;
-import dev.piteam.project_theia.worldgen.ore.ModPlacedFeatures;
+import dev.theiateam.project_theia.main.ProjectTheia;
+import dev.theiateam.project_theia.worldgen.ore.ModPlacedFeatures;
 import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -27,6 +27,6 @@ public class ModBiomeModifiers {
     }
 
     public static ResourceKey<BiomeModifier> registerKey(String name) {
-        return ResourceKey.create(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(ProjectIndustrialize.MOD_ID, name));
+        return ResourceKey.create(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(ProjectTheia.MOD_ID, name));
     }
 }

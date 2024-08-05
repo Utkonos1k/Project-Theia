@@ -1,7 +1,7 @@
-package dev.piteam.project_theia.worldgen.ore;
+package dev.theiateam.project_theia.worldgen.ore;
 
-import dev.piteam.project_theia.block.ModBlock;
-import dev.piteam.project_theia.main.ProjectIndustrialize;
+import dev.theiateam.project_theia.block.ModBlock;
+import dev.theiateam.project_theia.main.ProjectTheia;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
@@ -32,7 +32,7 @@ public class ModConfiguredFeatures {
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {
-        return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(ProjectIndustrialize.MOD_ID, name));
+        return ResourceKey.create(Registries.CONFIGURED_FEATURE, ResourceLocation.fromNamespaceAndPath(ProjectTheia.MOD_ID, name));
     }
 
     private static <FC extends FeatureConfiguration, F extends Feature<FC>> void register(BootstrapContext<ConfiguredFeature<?, ?>> context,

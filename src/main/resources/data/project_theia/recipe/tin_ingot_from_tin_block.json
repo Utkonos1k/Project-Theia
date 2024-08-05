@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "project_industrialize:tin_block"
+      "item": "project_theia:tin_block"
     }
   ],
   "result": {
     "count": 9,
-    "id": "project_industrialize:tin_ingot"
+    "id": "project_theia:tin_ingot"
   }
 }

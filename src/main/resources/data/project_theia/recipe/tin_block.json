@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "I": {
-      "item": "project_industrialize:tin_ingot"
+      "item": "project_theia:tin_ingot"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "project_industrialize:tin_block"
+    "id": "project_theia:tin_block"
   }
 }

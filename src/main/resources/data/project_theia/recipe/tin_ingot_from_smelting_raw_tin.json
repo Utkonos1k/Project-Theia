@@ -5,9 +5,9 @@
   "experience": 1.0,
   "group": "tin_ingot",
   "ingredient": {
-    "item": "project_industrialize:raw_tin"
+    "item": "project_theia:raw_tin"
   },
   "result": {
-    "id": "project_industrialize:tin_ingot"
+    "id": "project_theia:tin_ingot"
   }
 }

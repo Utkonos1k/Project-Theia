@@ -1,9 +1,9 @@
-package dev.piteam.project_theia.main;
+package dev.theiateam.project_theia.main;
 
-import dev.piteam.project_theia.block.ModBlock;
-import dev.piteam.project_theia.item.ModBlockItems;
-import dev.piteam.project_theia.item.ModItems;
-import dev.piteam.project_theia.ui.ModTabs;
+import dev.theiateam.project_theia.block.ModBlock;
+import dev.theiateam.project_theia.item.ModBlockItems;
+import dev.theiateam.project_theia.item.ModItems;
+import dev.theiateam.project_theia.ui.ModTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -21,11 +21,11 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
-@Mod(ProjectIndustrialize.MOD_ID)
-public class ProjectIndustrialize
+@Mod(ProjectTheia.MOD_ID)
+public class ProjectTheia
 {
 
-    public static final String MOD_ID = "project_industrialize";
+    public static final String MOD_ID = "project_theia";
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
@@ -33,7 +33,7 @@ public class ProjectIndustrialize
 
 //    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
 
-    public ProjectIndustrialize(IEventBus modEventBus, ModContainer modContainer)
+    public ProjectTheia(IEventBus modEventBus, ModContainer modContainer)
     {
 
         modEventBus.addListener(this::commonSetup);

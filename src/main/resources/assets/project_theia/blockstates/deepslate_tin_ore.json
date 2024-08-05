@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "project_industrialize:block/deepslate_tin_ore"
+      "model": "project_theia:block/deepslate_tin_ore"
     }
   }
 }

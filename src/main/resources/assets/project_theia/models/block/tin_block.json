@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "project_industrialize:block/tin_block"
+    "all": "project_theia:block/tin_block"
   }
 }

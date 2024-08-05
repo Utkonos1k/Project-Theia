@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "project_industrialize:tin_block"
+          "name": "project_theia:tin_block"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "project_industrialize:blocks/tin_block"
+  "random_sequence": "project_theia:blocks/tin_block"
 }

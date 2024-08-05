@@ -1,7 +1,7 @@
-package dev.piteam.project_theia;
+package dev.theiateam.project_theia;
 
-import dev.piteam.project_theia.worldgen.ModWorldGenProvider;
-import dev.piteam.project_theia.main.ProjectIndustrialize;
+import dev.theiateam.project_theia.worldgen.ModWorldGenProvider;
+import dev.theiateam.project_theia.main.ProjectTheia;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
@@ -12,7 +12,7 @@ import net.neoforged.neoforge.data.event.GatherDataEvent;
 
 import java.util.concurrent.CompletableFuture;
 
-@EventBusSubscriber(modid = ProjectIndustrialize.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = ProjectTheia.MOD_ID, bus = EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
     @SubscribeEvent
     public static void gatherData(GatherDataEvent event) {

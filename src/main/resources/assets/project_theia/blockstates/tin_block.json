@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "project_industrialize:block/tin_block"
+      "model": "project_theia:block/tin_block"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "project_industrialize:item/tin_ingot"
+    "layer0": "project_theia:item/tin_ingot"
   }
 }
