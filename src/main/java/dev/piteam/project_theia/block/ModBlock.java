@@ -1,6 +1,6 @@
-package dev.piteam.project_industrialize.block;
+package dev.piteam.project_theia.block;
 
-import dev.piteam.project_industrialize.main.ProjectIndustrialize;
+import dev.piteam.project_theia.main.ProjectIndustrialize;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;

@@ -1,6 +1,6 @@
-package dev.piteam.project_industrialize.worldgen.ore;
+package dev.piteam.project_theia.worldgen.ore;
 
-import dev.piteam.project_industrialize.main.ProjectIndustrialize;
+import dev.piteam.project_theia.main.ProjectIndustrialize;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderGetter;
 import net.minecraft.core.registries.Registries;

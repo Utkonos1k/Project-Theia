@@ -1,15 +1,14 @@
-package dev.piteam.project_industrialize.ui;
+package dev.piteam.project_theia.ui;
 
-import dev.piteam.project_industrialize.item.ModBlockItems;
-import dev.piteam.project_industrialize.item.ModItems;
+import dev.piteam.project_theia.item.ModBlockItems;
+import dev.piteam.project_theia.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import static dev.piteam.project_industrialize.main.ProjectIndustrialize.MOD_ID;
+import static dev.piteam.project_theia.main.ProjectIndustrialize.MOD_ID;
 
 
 public class ModTabs {

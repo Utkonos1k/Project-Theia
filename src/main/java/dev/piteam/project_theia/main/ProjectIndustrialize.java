@@ -1,15 +1,13 @@
-package dev.piteam.project_industrialize.main;
+package dev.piteam.project_theia.main;
 
-import dev.piteam.project_industrialize.block.ModBlock;
-import dev.piteam.project_industrialize.item.ModBlockItems;
-import dev.piteam.project_industrialize.item.ModItems;
-import dev.piteam.project_industrialize.ui.ModTabs;
+import dev.piteam.project_theia.block.ModBlock;
+import dev.piteam.project_theia.item.ModBlockItems;
+import dev.piteam.project_theia.item.ModItems;
+import dev.piteam.project_theia.ui.ModTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 
-import net.minecraft.core.registries.Registries;
-import net.minecraft.world.item.CreativeModeTab;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -22,7 +20,6 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.neoforged.neoforge.registries.DeferredRegister;
 
 @Mod(ProjectIndustrialize.MOD_ID)
 public class ProjectIndustrialize

@@ -1,4 +1,4 @@
-package dev.piteam.project_industrialize.main;
+package dev.piteam.project_theia.main;
 
 import java.util.List;
 import java.util.Set;

@@ -1,8 +1,8 @@
-package dev.piteam.project_industrialize.worldgen;
+package dev.piteam.project_theia.worldgen;
 
-import dev.piteam.project_industrialize.main.ProjectIndustrialize;
-import dev.piteam.project_industrialize.worldgen.ore.ModConfiguredFeatures;
-import dev.piteam.project_industrialize.worldgen.ore.ModPlacedFeatures;
+import dev.piteam.project_theia.main.ProjectIndustrialize;
+import dev.piteam.project_theia.worldgen.ore.ModConfiguredFeatures;
+import dev.piteam.project_theia.worldgen.ore.ModPlacedFeatures;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.RegistrySetBuilder;
 import net.minecraft.core.registries.Registries;

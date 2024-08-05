@@ -1,7 +1,7 @@
-package dev.piteam.project_industrialize.item;
+package dev.piteam.project_theia.item;
 
-import dev.piteam.project_industrialize.block.ModBlock;
-import dev.piteam.project_industrialize.main.ProjectIndustrialize;
+import dev.piteam.project_theia.block.ModBlock;
+import dev.piteam.project_theia.main.ProjectIndustrialize;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.registries.DeferredItem;

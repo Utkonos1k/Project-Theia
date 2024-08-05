@@ -1,7 +1,7 @@
-package dev.piteam.project_industrialize.worldgen.ore;
+package dev.piteam.project_theia.worldgen.ore;
 
-import dev.piteam.project_industrialize.block.ModBlock;
-import dev.piteam.project_industrialize.main.ProjectIndustrialize;
+import dev.piteam.project_theia.block.ModBlock;
+import dev.piteam.project_theia.main.ProjectIndustrialize;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;

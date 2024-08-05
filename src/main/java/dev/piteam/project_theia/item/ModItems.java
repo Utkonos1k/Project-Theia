@@ -1,6 +1,6 @@
-package dev.piteam.project_industrialize.item;
+package dev.piteam.project_theia.item;
 
-import dev.piteam.project_industrialize.main.ProjectIndustrialize;
+import dev.piteam.project_theia.main.ProjectIndustrialize;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;

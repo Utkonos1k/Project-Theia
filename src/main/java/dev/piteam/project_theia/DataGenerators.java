@@ -1,7 +1,7 @@
-package dev.piteam.project_industrialize;
+package dev.piteam.project_theia;
 
-import dev.piteam.project_industrialize.worldgen.ModWorldGenProvider;
-import dev.piteam.project_industrialize.main.ProjectIndustrialize;
+import dev.piteam.project_theia.worldgen.ModWorldGenProvider;
+import dev.piteam.project_theia.main.ProjectIndustrialize;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
