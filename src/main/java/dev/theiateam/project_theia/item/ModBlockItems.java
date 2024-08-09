@@ -16,7 +16,5 @@ public class ModBlockItems {
 
     public static final DeferredItem<BlockItem> TIN_BLOCK = ITEMS.registerSimpleBlockItem("tin_block", ModBlock.TIN_BLOCK);
 
-    public static final DeferredItem<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
 
 }

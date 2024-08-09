@@ -1,5 +1,6 @@
 package dev.theiateam.project_theia;
 
+import dev.theiateam.project_theia.datagen.ModItemModelProvider;
 import dev.theiateam.project_theia.worldgen.ModWorldGenProvider;
 import dev.theiateam.project_theia.main.ProjectTheia;
 import net.minecraft.core.HolderLookup;
@@ -22,5 +23,6 @@ public class DataGenerators {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         generator.addProvider(event.includeServer(), new ModWorldGenProvider(packOutput, lookupProvider));
+        generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
     }
 }

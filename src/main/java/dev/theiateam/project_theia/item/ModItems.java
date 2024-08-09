@@ -18,4 +18,8 @@ public class ModItems {
             .food(new FoodProperties.Builder().nutrition(10).alwaysEdible().saturationModifier(5f)
                     .effect(new MobEffectInstance(MobEffects.BLINDNESS, 1000), 7).build())));
 
+    public static final DeferredItem<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+
+
 }
