@@ -17,8 +17,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.TIN_INGOT.get());
+        basicItem(ModItems.RAW_TIN.get());
 
         withExistingParent(String.valueOf(ModBlockItems.DEEPSLATE_TIN_ORE.get()), modLoc("block/deepslate_tin_ore"));
         withExistingParent(String.valueOf(ModBlockItems.TIN_ORE.get()), modLoc("block/tin_ore"));
+        withExistingParent(String.valueOf(ModBlockItems.TIN_BLOCK.get()), modLoc("block/tin_block"));
     }
 }

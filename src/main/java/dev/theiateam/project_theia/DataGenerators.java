@@ -1,5 +1,6 @@
 package dev.theiateam.project_theia;
 
+import dev.theiateam.project_theia.datagen.ModBlockStateProvider;
 import dev.theiateam.project_theia.datagen.ModItemModelProvider;
 import dev.theiateam.project_theia.worldgen.ModWorldGenProvider;
 import dev.theiateam.project_theia.main.ProjectTheia;
@@ -22,7 +23,9 @@ public class DataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
+        generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeServer(), new ModWorldGenProvider(packOutput, lookupProvider));
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
+
     }
 }
