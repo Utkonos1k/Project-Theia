@@ -15,7 +15,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         simpleBlock(ModBlock.TIN_ORE.get());
         simpleBlock(ModBlock.DEEPSLATE_TIN_ORE.get());
+
+        simpleBlock(ModBlock.ALUMINIUM_BLOCK.get());
+        simpleBlock(ModBlock.LEAD_BLOCK.get());
+        simpleBlock(ModBlock.NICKEL_BLOCK.get());
+        simpleBlock(ModBlock.TUNGSTEN_BLOCK.get());
         simpleBlock(ModBlock.TIN_BLOCK.get());
+        simpleBlock(ModBlock.CHROMIUM_BLOCK.get());
 
     }
 }

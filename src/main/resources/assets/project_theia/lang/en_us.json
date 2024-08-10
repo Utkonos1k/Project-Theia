@@ -1,11 +1,22 @@
 {
 
+  "item.project_theia.aluminium_ingot": "Aluminium Ingot",
+  "item.project_theia.lead_ingot": "Lead Ingot",
+  "item.project_theia.nickel_ingot": "Nickel Ingot",
+  "item.project_theia.tungsten_ingot": "Tungsten Ingot",
   "item.project_theia.tin_ingot": "Tin Ingot",
+  "item.project_theia.chromium": "Chromium",
   "item.project_theia.raw_tin": "Raw Tin",
 
   "block.project_theia.deepslate_tin_ore": "Deepslate Tin Ore",
   "block.project_theia.tin_ore": "Tin Ore",
+
+  "block.project_theia.aluminium_block": "Aluminium Block",
+  "block.project_theia.lead_block": "Lead Block",
+  "block.project_theia.nickel_block": "Nickel Block",
+  "block.project_theia.tungsten_block": "Tungsten Block",
   "block.project_theia.tin_block": "Tin Block",
+  "block.project_theia.chromium_block": "Chromium Block",
 
   "ItemGroup.project_theia_item_tab": "PT Items",
   "ItemGroup.project_theia_block_tab": "PT Block"

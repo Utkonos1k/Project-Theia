@@ -52,7 +52,12 @@ public class ModBlockLootTable extends BlockLootSubProvider{
 
     @Override
     protected void generate() {
+        dropSelf(ModBlock.ALUMINIUM_BLOCK.get());
+        dropSelf(ModBlock.LEAD_BLOCK.get());
+        dropSelf(ModBlock.NICKEL_BLOCK.get());
+        dropSelf(ModBlock.TUNGSTEN_BLOCK.get());
         dropSelf(ModBlock.TIN_BLOCK.get());
+        dropSelf(ModBlock.CHROMIUM_BLOCK.get());
 
         add(ModBlock.TIN_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlock.TIN_ORE.get(), ModItems.RAW_TIN.get()));

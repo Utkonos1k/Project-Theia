@@ -16,6 +16,10 @@ public class ModBlock {
 
 //    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE).destroyTime(-1f));
 
+
+    //ORES
+
+
     public static final DeferredBlock<Block> TIN_ORE = BLOCKS.registerSimpleBlock("tin_ore", BlockBehaviour.Properties.of()
 
             .sound(SoundType.STONE)
@@ -35,6 +39,44 @@ public class ModBlock {
     );
 
 
+    //MATERIAL BLOCKS
+
+
+    public static final  DeferredBlock<Block> ALUMINIUM_BLOCK = BLOCKS.registerSimpleBlock("aluminium_block", BlockBehaviour.Properties.of()
+
+            .sound(SoundType.STONE)
+            .destroyTime(3.0f)
+            .explosionResistance(10.0f)
+            .requiresCorrectToolForDrops()
+
+    );
+
+    public static final  DeferredBlock<Block> LEAD_BLOCK = BLOCKS.registerSimpleBlock("lead_block", BlockBehaviour.Properties.of()
+
+            .sound(SoundType.STONE)
+            .destroyTime(6.0f)
+            .explosionResistance(20.0f)
+            .requiresCorrectToolForDrops()
+
+    );
+
+    public static final  DeferredBlock<Block> NICKEL_BLOCK = BLOCKS.registerSimpleBlock("nickel_block", BlockBehaviour.Properties.of()
+
+            .sound(SoundType.STONE)
+            .destroyTime(3.0f)
+            .explosionResistance(10.0f)
+            .requiresCorrectToolForDrops()
+
+    );
+
+    public static final  DeferredBlock<Block> TUNGSTEN_BLOCK = BLOCKS.registerSimpleBlock("tungsten_block", BlockBehaviour.Properties.of()
+
+            .sound(SoundType.STONE)
+            .destroyTime(10.0f)
+            .explosionResistance(100.0f)
+            .requiresCorrectToolForDrops()
+
+    );
 
     public static final  DeferredBlock<Block> TIN_BLOCK = BLOCKS.registerSimpleBlock("tin_block", BlockBehaviour.Properties.of()
 
@@ -45,5 +87,13 @@ public class ModBlock {
 
     );
 
+    public static final  DeferredBlock<Block> CHROMIUM_BLOCK = BLOCKS.registerSimpleBlock("chromium_block", BlockBehaviour.Properties.of()
+
+            .sound(SoundType.STONE)
+            .destroyTime(20.0f)
+            .explosionResistance(120.0f)
+            .requiresCorrectToolForDrops()
+
+    );
 
 }

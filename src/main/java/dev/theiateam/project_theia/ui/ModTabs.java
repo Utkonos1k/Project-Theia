@@ -23,7 +23,12 @@ public class ModTabs {
 
                         //template output.accept(ModItem.//ITEM_NAME//.get());
 
+                        output.accept(ModItems.ALUMINIUM_INGOT.get());
+                        output.accept(ModItems.LEAD_INGOT.get());
+                        output.accept(ModItems.NICKEL_INGOT.get());
+                        output.accept(ModItems.TUNGSTEN_INGOT.get());
                         output.accept(ModItems.TIN_INGOT.get());
+                        output.accept(ModItems.CHROMIUM.get());
                         output.accept(ModItems.RAW_TIN.get());
 
                     }).build());
@@ -35,7 +40,13 @@ public class ModTabs {
 
 //                        output.accept(ModBlockItems.//BLOCK_NAME//.get());
 
+                        output.accept(ModBlockItems.ALUMINIUM_BLOCK.get());
+                        output.accept(ModBlockItems.LEAD_BLOCK.get());
+                        output.accept(ModBlockItems.NICKEL_BLOCK.get());
+                        output.accept(ModBlockItems.TUNGSTEN_BLOCK.get());
                         output.accept(ModBlockItems.TIN_BLOCK.get());
+                        output.accept(ModBlockItems.CHROMIUM_BLOCK.get());
+
                         output.accept(ModBlockItems.TIN_ORE.get());
                         output.accept(ModBlockItems.DEEPSLATE_TIN_ORE.get());
 

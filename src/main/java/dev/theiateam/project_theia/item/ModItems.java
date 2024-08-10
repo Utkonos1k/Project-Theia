@@ -13,10 +13,24 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ProjectTheia.MOD_ID);
 
+
+    public static final DeferredItem<Item> ALUMINIUM_INGOT = ITEMS.register("aluminium_ingot", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+
+    public static final DeferredItem<Item> LEAD_INGOT = ITEMS.register("lead_ingot", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+
+    public static final DeferredItem<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+
+    public static final DeferredItem<Item> TUNGSTEN_INGOT = ITEMS.register("tungsten_ingot", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+
     public static final DeferredItem<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties()
-            .stacksTo(64)
-            .food(new FoodProperties.Builder().nutrition(10).alwaysEdible().saturationModifier(5f)
-                    .effect(new MobEffectInstance(MobEffects.BLINDNESS, 1000), 7).build())));
+            .stacksTo(64)));
+
+    public static final DeferredItem<Item> CHROMIUM = ITEMS.register("chromium", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
 
     public static final DeferredItem<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties()
             .stacksTo(64)));
