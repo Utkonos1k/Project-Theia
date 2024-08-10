@@ -1,0 +1,22 @@
+{
+  "item.project_theia.aluminium_ingot": "Алюминиевый Слиток",
+  "item.project_theia.lead_ingot": "Свинцовый Слиток",
+  "item.project_theia.nickel_ingot": "Никилевый Слиток",
+  "item.project_theia.tungsten_ingot": "Вольфрамовый Слиток",
+  "item.project_theia.tin_ingot": "Оловяный Слиток",
+  "item.project_theia.chromium": "Хром",
+  "item.project_theia.raw_tin": "Сырое Олово",
+
+  "block.project_theia.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.project_theia.tin_ore": "Оловяная Руда",
+
+  "block.project_theia.aluminium_block": "Алюминиевый Блок",
+  "block.project_theia.lead_block": "Свинцовый Блок",
+  "block.project_theia.nickel_block": "Никеливый Блок",
+  "block.project_theia.tungsten_block": "Вольфрамовый Блок",
+  "block.project_theia.tin_block": "Оловяный Блок",
+  "block.project_theia.chromium_block": "Блок Хрома",
+
+  "ItemGroup.project_theia_item_tab": "PT Предметы",
+  "ItemGroup.project_theia_block_tab": "PT Блоки"
+}
