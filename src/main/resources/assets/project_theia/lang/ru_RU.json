@@ -6,6 +6,11 @@
   "item.project_theia.tin_ingot": "Оловяный слиток",
   "item.project_theia.chromium": "Хром",
 
+  "item.project_theia.stannite": "Станнин",
+
+  "block.project_theia.stannite_ore": "Станниновая руда",
+  "block.project_theia.deepslate_stannite_ore": "Станниноносный глубокий сланец",
+
   "block.project_theia.aluminium_block": "Алюминиевый блок",
   "block.project_theia.lead_block": "Свинцовый блок",
   "block.project_theia.nickel_block": "Никеливый блок",

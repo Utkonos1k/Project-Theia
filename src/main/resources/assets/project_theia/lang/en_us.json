@@ -6,6 +6,11 @@
   "item.project_theia.tin_ingot": "Tin Ingot",
   "item.project_theia.chromium": "Chromium",
 
+  "item.project_theia.stannite": "Stannite",
+
+  "block.project_theia.stannite_ore": "Stannite Ore",
+  "block.project_theia.deepslate_stannite_ore": "Deepslate Stannite Ore",
+
   "block.project_theia.aluminium_block": "Aluminium Block",
   "block.project_theia.lead_block": "Lead Block",
   "block.project_theia.nickel_block": "Nickel Block",

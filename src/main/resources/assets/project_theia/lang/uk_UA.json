@@ -1,0 +1,23 @@
+{
+  "item.project_theia.aluminium_ingot": "Алюмінієвий злиток",
+  "item.project_theia.lead_ingot": "Свинцевий злиток",
+  "item.project_theia.nickel_ingot": "Нікелєвий злиток",
+  "item.project_theia.tungsten_ingot": "Вольфрамовий злиток",
+  "item.project_theia.tin_ingot": "Олов'яний злиток",
+  "item.project_theia.chromium": "Хром",
+
+  "item.project_theia.stannite": "Станін",
+
+  "block.project_theia.stannite_ore": "Станінова руда",
+  "block.project_theia.deepslate_stannite_ore": "Глибокосланцієва станінова руда",
+
+  "block.project_theia.aluminium_block": "Алюмінієвий блок",
+  "block.project_theia.lead_block": "Свинцевий блок",
+  "block.project_theia.nickel_block": "Нікелєвий блок",
+  "block.project_theia.tungsten_block": "Вольфрамовий блок",
+  "block.project_theia.tin_block": "Олов'яний блок",
+  "block.project_theia.chromium_block": "Хромовий блок",
+
+  "ItemGroup.project_theia_item_tab": "PT Предмети",
+  "ItemGroup.project_theia_block_tab": "PT Блоки"
+}
