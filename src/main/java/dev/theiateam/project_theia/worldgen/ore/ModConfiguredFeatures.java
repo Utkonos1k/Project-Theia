@@ -24,8 +24,8 @@ public class ModConfiguredFeatures {
         RuleTest deepslateReplaceble = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreConfiguration.TargetBlockState> overworldTinOres = List.of(OreConfiguration.target(stoneReplaceble,
-                ModBlock.TIN_ORE.get().defaultBlockState()),
-                OreConfiguration.target(deepslateReplaceble, ModBlock.DEEPSLATE_TIN_ORE.get().defaultBlockState()));
+                ModBlock.STANNITE_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceble, ModBlock.DEEPSLATE_STANNITE_ORE.get().defaultBlockState()));
 
         register(context, OVERWORLD_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(overworldTinOres, 9));
 

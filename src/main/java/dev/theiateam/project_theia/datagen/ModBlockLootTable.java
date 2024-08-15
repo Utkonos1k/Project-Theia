@@ -17,6 +17,7 @@ import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
+import net.neoforged.fml.common.Mod;
 
 
 import java.util.Set;
@@ -52,6 +53,9 @@ public class ModBlockLootTable extends BlockLootSubProvider{
 
     @Override
     protected void generate() {
+
+        //DROPSELF
+
         dropSelf(ModBlock.ALUMINIUM_BLOCK.get());
         dropSelf(ModBlock.LEAD_BLOCK.get());
         dropSelf(ModBlock.NICKEL_BLOCK.get());
@@ -59,10 +63,12 @@ public class ModBlockLootTable extends BlockLootSubProvider{
         dropSelf(ModBlock.TIN_BLOCK.get());
         dropSelf(ModBlock.CHROMIUM_BLOCK.get());
 
-        add(ModBlock.TIN_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlock.TIN_ORE.get(), ModItems.RAW_TIN.get()));
-        add(ModBlock.DEEPSLATE_TIN_ORE.get(),
-                block -> createCopperLikeOreDrops(ModBlock.TIN_ORE.get(), ModItems.RAW_TIN.get()));
+        //ORES
+
+        add(ModBlock.STANNITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlock.STANNITE_ORE.get(), ModItems.STANNITE.get()));
+        add(ModBlock.DEEPSLATE_STANNITE_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlock.DEEPSLATE_STANNITE_ORE.get(), ModItems.STANNITE.get()));
     }
 
 }

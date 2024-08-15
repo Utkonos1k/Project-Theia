@@ -29,7 +29,7 @@ public class ModTabs {
                         output.accept(ModItems.TUNGSTEN_INGOT.get());
                         output.accept(ModItems.TIN_INGOT.get());
                         output.accept(ModItems.CHROMIUM.get());
-                        output.accept(ModItems.RAW_TIN.get());
+                        output.accept(ModItems.STANNITE.get());
 
                     }).build());
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_IND_BLOCK_TAB =
@@ -46,9 +46,8 @@ public class ModTabs {
                         output.accept(ModBlockItems.TUNGSTEN_BLOCK.get());
                         output.accept(ModBlockItems.TIN_BLOCK.get());
                         output.accept(ModBlockItems.CHROMIUM_BLOCK.get());
-
-                        output.accept(ModBlockItems.TIN_ORE.get());
-                        output.accept(ModBlockItems.DEEPSLATE_TIN_ORE.get());
+                        output.accept(ModBlockItems.STANNITE_ORE.get());
+                        output.accept(ModBlockItems.DEEPSLATE_STANNITE_ORE.get());
 
                     }).build());
 

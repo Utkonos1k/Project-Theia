@@ -14,6 +14,9 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ProjectTheia.MOD_ID);
 
 
+    //MATERIALS
+
+
     public static final DeferredItem<Item> ALUMINIUM_INGOT = ITEMS.register("aluminium_ingot", () -> new Item(new Item.Properties()
             .stacksTo(64)));
 
@@ -32,8 +35,11 @@ public class ModItems {
     public static final DeferredItem<Item> CHROMIUM = ITEMS.register("chromium", () -> new Item(new Item.Properties()
             .stacksTo(64)));
 
-    public static final DeferredItem<Item> RAW_TIN = ITEMS.register("raw_tin", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
 
+    //MINERALS
+
+
+    public static final DeferredItem<Item> STANNITE = ITEMS.register("stannite", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
 
 }

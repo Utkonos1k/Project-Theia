@@ -11,9 +11,7 @@ public class ModBlockItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ProjectTheia.MOD_ID);
 
-    public static final DeferredItem<BlockItem> TIN_ORE = ITEMS.registerSimpleBlockItem("tin_ore", ModBlock.TIN_ORE);
-    public static final DeferredItem<BlockItem> DEEPSLATE_TIN_ORE = ITEMS.registerSimpleBlockItem("deepslate_tin_ore", ModBlock.DEEPSLATE_TIN_ORE);
-
+    //MATERIAL BLOCKS
 
     public static final DeferredItem<BlockItem> ALUMINIUM_BLOCK = ITEMS.registerSimpleBlockItem("aluminium_block", ModBlock.ALUMINIUM_BLOCK);
     public static final DeferredItem<BlockItem> LEAD_BLOCK = ITEMS.registerSimpleBlockItem("lead_block", ModBlock.LEAD_BLOCK);
@@ -22,6 +20,9 @@ public class ModBlockItems {
     public static final DeferredItem<BlockItem> TIN_BLOCK = ITEMS.registerSimpleBlockItem("tin_block", ModBlock.TIN_BLOCK);
     public static final DeferredItem<BlockItem> CHROMIUM_BLOCK = ITEMS.registerSimpleBlockItem("chromium_block", ModBlock.CHROMIUM_BLOCK);
 
+    //ORES
 
+    public static final DeferredItem<BlockItem> STANNITE_ORE = ITEMS.registerSimpleBlockItem("stannite_ore", ModBlock.STANNITE_ORE);
+    public static final DeferredItem<BlockItem> DEEPSLATE_STANNITE_ORE = ITEMS.registerSimpleBlockItem("deepslate_stannite_ore", ModBlock.DEEPSLATE_STANNITE_ORE);
 
 }

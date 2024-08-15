@@ -20,7 +20,7 @@ public class ModBlock {
     //ORES
 
 
-    public static final DeferredBlock<Block> TIN_ORE = BLOCKS.registerSimpleBlock("tin_ore", BlockBehaviour.Properties.of()
+    public static final  DeferredBlock<Block> STANNITE_ORE = BLOCKS.registerSimpleBlock("stannite_ore", BlockBehaviour.Properties.of()
 
             .sound(SoundType.STONE)
             .destroyTime(3.0f)
@@ -29,10 +29,10 @@ public class ModBlock {
 
     );
 
-    public static final  DeferredBlock<Block> DEEPSLATE_TIN_ORE = BLOCKS.registerSimpleBlock("deepslate_tin_ore", BlockBehaviour.Properties.of()
+    public static final  DeferredBlock<Block> DEEPSLATE_STANNITE_ORE = BLOCKS.registerSimpleBlock("deepslate_stannite_ore", BlockBehaviour.Properties.of()
 
             .sound(SoundType.STONE)
-            .destroyTime(3.0f)
+            .destroyTime(5.0f)
             .explosionResistance(10.0f)
             .requiresCorrectToolForDrops()
 

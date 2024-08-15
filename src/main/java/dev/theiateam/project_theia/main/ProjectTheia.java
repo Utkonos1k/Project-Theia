@@ -31,7 +31,6 @@ public class ProjectTheia
 
 
 
-//    public static final DeferredBlock<Block> EXAMPLE_BLOCK = BLOCKS.registerSimpleBlock("example_block", BlockBehaviour.Properties.of().mapColor(MapColor.STONE));
 
     public ProjectTheia(IEventBus modEventBus, ModContainer modContainer)
     {
