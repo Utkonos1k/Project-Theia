@@ -1,12 +1,25 @@
 {
+  "item.project_theia.iron_powder": "Железный порошок",
+  "item.project_theia.copper_powder": "Медный порошок",
+  "item.project_theia.gold_powder": "Золотой порошок",
+  "item.project_theia.diamond_powder": "Алмазный порошок",
+
+
   "item.project_theia.aluminium_ingot": "Алюминиевый слиток",
+
   "item.project_theia.lead_ingot": "Свинцовый слиток",
+
   "item.project_theia.nickel_ingot": "Никилевый слиток",
+
   "item.project_theia.tungsten_ingot": "Вольфрамовый слиток",
+
   "item.project_theia.tin_ingot": "Оловяный слиток",
+
   "item.project_theia.chromium": "Хром",
 
+
   "item.project_theia.stannite": "Станнин",
+  "item.project_theia.stannite_powder": "Станиновый порошок",
 
   "block.project_theia.stannite_ore": "Станниновая руда",
   "block.project_theia.deepslate_stannite_ore": "Станниноносный глубокий сланец",

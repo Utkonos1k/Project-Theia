@@ -36,10 +36,22 @@ public class ModItems {
             .stacksTo(64)));
 
 
+    public static final DeferredItem<Item> IRON_POWDER = ITEMS.register("iron_powder", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+    public static final DeferredItem<Item> COPPER_POWDER = ITEMS.register("copper_powder", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+    public static final DeferredItem<Item> GOLD_POWDER = ITEMS.register("gold_powder", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+    public static final DeferredItem<Item> DIAMOND_POWDER = ITEMS.register("diamond_powder", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+
     //MINERALS
 
 
     public static final DeferredItem<Item> STANNITE = ITEMS.register("stannite", () -> new Item(new Item.Properties()
+            .stacksTo(64)));
+
+    public static final DeferredItem<Item> STANNITE_POWDER = ITEMS.register("stannite_powder", () -> new Item(new Item.Properties()
             .stacksTo(64)));
 
 }

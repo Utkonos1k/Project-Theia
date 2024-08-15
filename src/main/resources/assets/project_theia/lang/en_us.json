@@ -1,12 +1,25 @@
 {
+  "item.project_theia.iron_powder": "Iron Powder",
+  "item.project_theia.copper_powder": "Copper Powder",
+  "item.project_theia.gold_powder": "Gold Powder",
+  "item.project_theia.diamond_powder": "Diamond Powder",
+
+
   "item.project_theia.aluminium_ingot": "Aluminium Ingot",
+
   "item.project_theia.lead_ingot": "Lead Ingot",
+
   "item.project_theia.nickel_ingot": "Nickel Ingot",
+
   "item.project_theia.tungsten_ingot": "Tungsten Ingot",
+
   "item.project_theia.tin_ingot": "Tin Ingot",
+
   "item.project_theia.chromium": "Chromium",
 
+
   "item.project_theia.stannite": "Stannite",
+  "item.project_theia.stannite_powder": "Stannite Powder",
 
   "block.project_theia.stannite_ore": "Stannite Ore",
   "block.project_theia.deepslate_stannite_ore": "Deepslate Stannite Ore",

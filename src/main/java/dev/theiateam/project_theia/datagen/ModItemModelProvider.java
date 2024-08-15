@@ -19,6 +19,11 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //MATERIALS
 
+        basicItem(ModItems.IRON_POWDER.get());
+        basicItem(ModItems.COPPER_POWDER.get());
+        basicItem(ModItems.GOLD_POWDER.get());
+        basicItem(ModItems.DIAMOND_POWDER.get());
+
         basicItem(ModItems.ALUMINIUM_INGOT.get());
         basicItem(ModItems.LEAD_INGOT.get());
         basicItem(ModItems.NICKEL_INGOT.get());
@@ -26,10 +31,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.TIN_INGOT.get());
         basicItem(ModItems.CHROMIUM.get());
 
+
+
+
         //MINERALS
 
         basicItem(ModItems.STANNITE.get());
-
+        basicItem(ModItems.STANNITE_POWDER.get());
 
 
         //BLOCKITEMS

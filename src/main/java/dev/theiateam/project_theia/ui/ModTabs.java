@@ -23,13 +23,25 @@ public class ModTabs {
 
                         //template output.accept(ModItem.//ITEM_NAME//.get());
 
+                        output.accept(ModItems.IRON_POWDER.get());
+                        output.accept(ModItems.COPPER_POWDER.get());
+                        output.accept(ModItems.GOLD_POWDER.get());
+                        output.accept(ModItems.DIAMOND_POWDER.get());
+
                         output.accept(ModItems.ALUMINIUM_INGOT.get());
+
                         output.accept(ModItems.LEAD_INGOT.get());
+
                         output.accept(ModItems.NICKEL_INGOT.get());
+
                         output.accept(ModItems.TUNGSTEN_INGOT.get());
+
                         output.accept(ModItems.TIN_INGOT.get());
+
                         output.accept(ModItems.CHROMIUM.get());
+
                         output.accept(ModItems.STANNITE.get());
+                        output.accept(ModItems.STANNITE_POWDER.get());
 
                     }).build());
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_IND_BLOCK_TAB =
