@@ -17,17 +17,17 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 import java.util.List;
 
 public class ModConfiguredFeatures {
-    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_TIN_ORE_KEY = registerKey("tin_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_STANNITE_ORE_KEY = registerKey("stannite_ore");
 
     public static void boostrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
         RuleTest stoneReplaceble = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES);
         RuleTest deepslateReplaceble = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
-        List<OreConfiguration.TargetBlockState> overworldTinOres = List.of(OreConfiguration.target(stoneReplaceble,
+        List<OreConfiguration.TargetBlockState> overworldStanniteOre = List.of(OreConfiguration.target(stoneReplaceble,
                 ModBlock.STANNITE_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceble, ModBlock.DEEPSLATE_STANNITE_ORE.get().defaultBlockState()));
 
-        register(context, OVERWORLD_TIN_ORE_KEY, Feature.ORE, new OreConfiguration(overworldTinOres, 9));
+        register(context, OVERWORLD_STANNITE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldStanniteOre, 9));
 
     }
 
