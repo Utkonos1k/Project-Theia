@@ -25,7 +25,7 @@ public class ModTabs {
 
                         output.accept(ModItems.IRON_DUST.get());
                         output.accept(ModItems.COPPER_POWDER.get());
-                        output.accept(ModItems.GOLD_POWDER.get());
+                        output.accept(ModItems.GOLD_DUST.get());
                         output.accept(ModItems.DIAMOND_POWDER.get());
 
                         output.accept(ModItems.ALUMINIUM_INGOT.get());

@@ -40,7 +40,7 @@ public class ModItems {
             .stacksTo(64)));
     public static final DeferredItem<Item> COPPER_POWDER = ITEMS.register("copper_powder", () -> new Item(new Item.Properties()
             .stacksTo(64)));
-    public static final DeferredItem<Item> GOLD_POWDER = ITEMS.register("gold_powder", () -> new Item(new Item.Properties()
+    public static final DeferredItem<Item> GOLD_DUST = ITEMS.register("gold_dust", () -> new Item(new Item.Properties()
             .stacksTo(64)));
     public static final DeferredItem<Item> DIAMOND_POWDER = ITEMS.register("diamond_powder", () -> new Item(new Item.Properties()
             .stacksTo(64)));
