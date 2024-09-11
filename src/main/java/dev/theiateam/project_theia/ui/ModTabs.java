@@ -23,7 +23,7 @@ public class ModTabs {
 
                         //template output.accept(ModItem.//ITEM_NAME//.get());
 
-                        output.accept(ModItems.IRON_POWDER.get());
+                        output.accept(ModItems.IRON_DUST.get());
                         output.accept(ModItems.COPPER_POWDER.get());
                         output.accept(ModItems.GOLD_POWDER.get());
                         output.accept(ModItems.DIAMOND_POWDER.get());

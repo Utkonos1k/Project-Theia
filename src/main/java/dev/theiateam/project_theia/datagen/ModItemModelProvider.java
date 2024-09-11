@@ -19,7 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //MATERIALS
 
-        basicItem(ModItems.IRON_POWDER.get());
+        basicItem(ModItems.IRON_DUST.get());
         basicItem(ModItems.COPPER_POWDER.get());
         basicItem(ModItems.GOLD_POWDER.get());
         basicItem(ModItems.DIAMOND_POWDER.get());

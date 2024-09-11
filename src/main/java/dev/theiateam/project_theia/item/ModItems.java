@@ -36,7 +36,7 @@ public class ModItems {
             .stacksTo(64)));
 
 
-    public static final DeferredItem<Item> IRON_POWDER = ITEMS.register("iron_powder", () -> new Item(new Item.Properties()
+    public static final DeferredItem<Item> IRON_DUST = ITEMS.register("iron_dust", () -> new Item(new Item.Properties()
             .stacksTo(64)));
     public static final DeferredItem<Item> COPPER_POWDER = ITEMS.register("copper_powder", () -> new Item(new Item.Properties()
             .stacksTo(64)));
