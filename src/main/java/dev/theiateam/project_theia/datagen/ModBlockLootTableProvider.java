@@ -2,12 +2,12 @@ package dev.theiateam.project_theia.datagen;
 
 import dev.theiateam.project_theia.block.ModBlock;
 import dev.theiateam.project_theia.item.ModItems;
+import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.block.Block;
@@ -17,16 +17,15 @@ import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
-import net.neoforged.fml.common.Mod;
 
 
 import java.util.Set;
 
 
-public class ModBlockLootTable extends BlockLootSubProvider{
+public class ModBlockLootTableProvider extends BlockLootSubProvider{
 
 
-    protected ModBlockLootTable(HolderLookup.Provider lookupProvider) {
+    public ModBlockLootTableProvider(HolderLookup.Provider lookupProvider) {
         super(Set.of(), FeatureFlags.DEFAULT_FLAGS, lookupProvider);
     }
 
@@ -45,10 +44,7 @@ public class ModBlockLootTable extends BlockLootSubProvider{
 
     @Override
     protected Iterable<Block> getKnownBlocks() {
-        return ModBlock.BLOCKS.getEntries()
-                .stream()
-                .map(e -> (Block) e.value())
-                .toList();
+        return ModBlock.BLOCKS.getEntries().stream().map(Holder::value)::iterator;
     }
 
     @Override

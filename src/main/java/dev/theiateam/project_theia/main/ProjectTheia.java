@@ -38,7 +38,7 @@ public class ProjectTheia
         modEventBus.addListener(this::commonSetup);
 
 
-        ModBlock.BLOCKS.register(modEventBus);
+        ModBlock.register(modEventBus);
 
         ModBlockItems.ITEMS.register(modEventBus);
 

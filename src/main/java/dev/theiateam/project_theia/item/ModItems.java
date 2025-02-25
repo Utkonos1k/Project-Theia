@@ -17,41 +17,29 @@ public class ModItems {
     //MATERIALS
 
 
-    public static final DeferredItem<Item> ALUMINIUM_INGOT = ITEMS.register("aluminium_ingot", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
+    public static final DeferredItem<Item> ALUMINIUM_INGOT = ITEMS.registerItem("aluminium_ingot", props -> new Item(props.stacksTo(64)));
 
-    public static final DeferredItem<Item> LEAD_INGOT = ITEMS.register("lead_ingot", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
+    public static final DeferredItem<Item> LEAD_INGOT = ITEMS.registerItem("lead_ingot", props -> new Item(props.stacksTo(64)));
 
-    public static final DeferredItem<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
+    public static final DeferredItem<Item> NICKEL_INGOT = ITEMS.registerItem("nickel_ingot", props -> new Item(props.stacksTo(64)));
 
-    public static final DeferredItem<Item> TUNGSTEN = ITEMS.register("tungsten", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
+    public static final DeferredItem<Item> TUNGSTEN = ITEMS.registerItem("tungsten", props -> new Item(props.stacksTo(64)));
 
-    public static final DeferredItem<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
+    public static final DeferredItem<Item> TIN_INGOT = ITEMS.registerItem("tin_ingot", props -> new Item(props.stacksTo(64)));
 
-    public static final DeferredItem<Item> CHROMIUM = ITEMS.register("chromium", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
+    public static final DeferredItem<Item> CHROMIUM = ITEMS.registerItem("chromium", props -> new Item(props.stacksTo(64)));
 
 
-    public static final DeferredItem<Item> IRON_DUST = ITEMS.register("iron_dust", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
-    public static final DeferredItem<Item> COPPER_POWDER = ITEMS.register("copper_powder", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
-    public static final DeferredItem<Item> GOLD_DUST = ITEMS.register("gold_dust", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
-    public static final DeferredItem<Item> DIAMOND_POWDER = ITEMS.register("diamond_powder", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
+    public static final DeferredItem<Item> IRON_DUST = ITEMS.registerItem("iron_dust", props -> new Item(props.stacksTo(64)));
+    public static final DeferredItem<Item> COPPER_POWDER = ITEMS.registerItem("copper_powder", props -> new Item(props.stacksTo(64)));
+    public static final DeferredItem<Item> GOLD_DUST = ITEMS.registerItem("gold_dust", props -> new Item(props.stacksTo(64)));
+    public static final DeferredItem<Item> DIAMOND_POWDER = ITEMS.registerItem("diamond_powder", props -> new Item(props.stacksTo(64)));
 
     //MINERALS
 
 
-    public static final DeferredItem<Item> STANNITE = ITEMS.register("stannite", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
+    public static final DeferredItem<Item> STANNITE = ITEMS.registerItem("stannite", props -> new Item(props.stacksTo(64)));
 
-    public static final DeferredItem<Item> STANNITE_POWDER = ITEMS.register("stannite_powder", () -> new Item(new Item.Properties()
-            .stacksTo(64)));
+    public static final DeferredItem<Item> STANNITE_POWDER = ITEMS.registerItem("stannite_powder", props -> new Item(props.stacksTo(64)));
 
 }
