@@ -111,13 +111,7 @@ public class    ModBlock {
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
-        registerBlockItem(name, toReturn);
         return  toReturn;
-    }
-
-    private static <T extends Block> void registerBlockItem(String name, DeferredBlock<T> block) {
-        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()
-                .setId(ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(ProjectTheia.MOD_ID, name)))));
     }
 
     public static void register(IEventBus eventBus) {
