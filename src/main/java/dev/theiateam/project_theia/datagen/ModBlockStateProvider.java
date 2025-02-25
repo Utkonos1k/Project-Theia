@@ -1,10 +1,13 @@
 package dev.theiateam.project_theia.datagen;
 
 import dev.theiateam.project_theia.block.ModBlock;
+import dev.theiateam.project_theia.item.ModBlockItems;
 import dev.theiateam.project_theia.main.ProjectTheia;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredItem;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -14,14 +17,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
-        simpleBlock(ModBlock.ALUMINIUM_BLOCK.get());
-        simpleBlock(ModBlock.LEAD_BLOCK.get());
-        simpleBlock(ModBlock.NICKEL_BLOCK.get());
-        simpleBlock(ModBlock.TUNGSTEN_BLOCK.get());
-        simpleBlock(ModBlock.TIN_BLOCK.get());
-        simpleBlock(ModBlock.CHROMIUM_BLOCK.get());
-        simpleBlock(ModBlock.STANNITE_ORE.get());
-        simpleBlock(ModBlock.DEEPSLATE_STANNITE_ORE.get());
+        blockWithItem(ModBlock.ALUMINIUM_BLOCK);
+        blockWithItem(ModBlock.CHROMIUM_BLOCK);
+        blockWithItem(ModBlock.LEAD_BLOCK);
+        blockWithItem(ModBlock.TUNGSTEN_BLOCK);
+        blockWithItem(ModBlock.TIN_BLOCK);
+        blockWithItem(ModBlock.NICKEL_BLOCK);
+        blockWithItem(ModBlock.STANNITE_ORE);
 
+        blockWithItem(ModBlock.DEEPSLATE_STANNITE_ORE);
+    }
+
+    private void blockWithItem(DeferredBlock<?> deferredBlock) {
+        simpleBlockWithItem(deferredBlock.get(), cubeAll(deferredBlock.get()));
     }
 }
