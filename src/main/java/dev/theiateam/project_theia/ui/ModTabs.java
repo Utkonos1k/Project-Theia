@@ -34,7 +34,7 @@ public class ModTabs {
 
                         output.accept(ModItems.NICKEL_INGOT.get());
 
-                        output.accept(ModItems.TUNGSTEN_INGOT.get());
+                        output.accept(ModItems.TUNGSTEN.get());
 
                         output.accept(ModItems.TIN_INGOT.get());
 

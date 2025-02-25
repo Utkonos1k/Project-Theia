@@ -26,7 +26,7 @@ public class ModItems {
     public static final DeferredItem<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot", () -> new Item(new Item.Properties()
             .stacksTo(64)));
 
-    public static final DeferredItem<Item> TUNGSTEN_INGOT = ITEMS.register("tungsten_ingot", () -> new Item(new Item.Properties()
+    public static final DeferredItem<Item> TUNGSTEN = ITEMS.register("tungsten", () -> new Item(new Item.Properties()
             .stacksTo(64)));
 
     public static final DeferredItem<Item> TIN_INGOT = ITEMS.register("tin_ingot", () -> new Item(new Item.Properties()

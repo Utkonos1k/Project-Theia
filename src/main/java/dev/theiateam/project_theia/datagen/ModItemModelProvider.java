@@ -27,7 +27,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.ALUMINIUM_INGOT.get());
         basicItem(ModItems.LEAD_INGOT.get());
         basicItem(ModItems.NICKEL_INGOT.get());
-        basicItem(ModItems.TUNGSTEN_INGOT.get());;
+        basicItem(ModItems.TUNGSTEN.get());;
         basicItem(ModItems.TIN_INGOT.get());
         basicItem(ModItems.CHROMIUM.get());
 
