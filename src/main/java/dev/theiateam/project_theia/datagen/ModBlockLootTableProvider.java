@@ -65,6 +65,9 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider{
                 block -> createCopperLikeOreDrops(ModBlock.STANNITE_ORE.get(), ModItems.STANNITE.get()));
         add(ModBlock.DEEPSLATE_STANNITE_ORE.get(),
                 block -> createCopperLikeOreDrops(ModBlock.DEEPSLATE_STANNITE_ORE.get(), ModItems.STANNITE.get()));
+
+        //OTHER
+
     }
 
 }

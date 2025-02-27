@@ -1,9 +1,6 @@
 package dev.theiateam.project_theia;
 
-import dev.theiateam.project_theia.datagen.ModBlockLootTableProvider;
-import dev.theiateam.project_theia.datagen.ModBlockStateProvider;
-import dev.theiateam.project_theia.datagen.ModItemModelProvider;
-import dev.theiateam.project_theia.datagen.ModLootTableProvider;
+import dev.theiateam.project_theia.datagen.*;
 import dev.theiateam.project_theia.worldgen.ModWorldGenProvider;
 import dev.theiateam.project_theia.main.ProjectTheia;
 import net.minecraft.core.HolderLookup;
@@ -32,6 +29,7 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new ModBlockStateProvider(packOutput, existingFileHelper));
         generator.addProvider(event.includeServer(), new ModWorldGenProvider(packOutput, lookupProvider));
         generator.addProvider(event.includeClient(), new ModItemModelProvider(packOutput, existingFileHelper));
+        generator.addProvider(event.includeServer(), new ModRecipeProvider.Runner(packOutput, lookupProvider));
         generator.addProvider(event.includeClient(), new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(ModBlockLootTableProvider::new, LootContextParamSets.BLOCK)), lookupProvider));
 
