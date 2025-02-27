@@ -31,6 +31,8 @@
   "block.project_theia.tin_block": "Олов'яний блок",
   "block.project_theia.chromium_block": "Хромовий блок",
 
+  "block.project_theia.primitive_crusher_workbench": "Примітивна дробилка",
+
   "ItemGroup.project_theia_item_tab": "PT Предмети",
   "ItemGroup.project_theia_block_tab": "PT Блоки"
 }

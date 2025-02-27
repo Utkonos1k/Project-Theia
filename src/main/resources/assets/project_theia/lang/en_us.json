@@ -31,6 +31,8 @@
   "block.project_theia.tin_block": "Tin Block",
   "block.project_theia.chromium_block": "Chromium Block",
 
+  "block.project_theia.primitive_crusher_workbench": "Primitive crusher",
+
   "ItemGroup.project_theia_item_tab": "PT Items",
   "ItemGroup.project_theia_block_tab": "PT Block"
 }
