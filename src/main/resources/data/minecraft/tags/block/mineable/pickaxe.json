@@ -2,6 +2,7 @@
   "values": [
     "project_theia:stannite_ore",
     "project_theia:deepslate_stannite_ore",
-    "project_theia:tin_block"
+    "project_theia:tin_block",
+    "project_theia:primitive_crusher_block"
   ]
 }

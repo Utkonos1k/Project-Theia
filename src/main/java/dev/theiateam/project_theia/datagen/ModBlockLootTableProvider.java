@@ -58,6 +58,7 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider{
         dropSelf(ModBlock.TUNGSTEN_BLOCK.get());
         dropSelf(ModBlock.TIN_BLOCK.get());
         dropSelf(ModBlock.CHROMIUM_BLOCK.get());
+        dropSelf(ModBlock.PRIMITIVE_CRUSHER_WORKBENCH.get());
 
         //ORES
 

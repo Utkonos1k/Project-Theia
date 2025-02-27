@@ -23,9 +23,9 @@ public class ModTabs {
 
                         //template output.accept(ModItem.//ITEM_NAME//.get());
 
-                        output.accept(ModItems.IRON_DUST.get());
+                        output.accept(ModItems.IRON_POWDER.get());
                         output.accept(ModItems.COPPER_POWDER.get());
-                        output.accept(ModItems.GOLD_DUST.get());
+                        output.accept(ModItems.GOLD_POWDER.get());
                         output.accept(ModItems.DIAMOND_POWDER.get());
 
                         output.accept(ModItems.ALUMINIUM_INGOT.get());
@@ -60,6 +60,10 @@ public class ModTabs {
                         output.accept(ModBlockItems.CHROMIUM_BLOCK.get());
                         output.accept(ModBlockItems.STANNITE_ORE.get());
                         output.accept(ModBlockItems.DEEPSLATE_STANNITE_ORE.get());
+
+                        //WORKBENCHES
+
+                        output.accept(ModBlockItems.PRIMITIVE_CRUSHER_WORKBENCH.get());
 
                     }).build());
 

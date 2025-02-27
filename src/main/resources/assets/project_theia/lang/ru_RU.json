@@ -1,8 +1,8 @@
 {
-  "item.project_theia.iron_dust": "Железная пыль",
-  "item.project_theia.copper_powder": "Медный порошок",
-  "item.project_theia.gold_powder": "Золотой порошок",
-  "item.project_theia.diamond_powder": "Алмазный порошок",
+  "item.project_theia.iron_powder": "Железная пыль",
+  "item.project_theia.copper_powder": "Медная пыль",
+  "item.project_theia.gold_powder": "Золотая пыль",
+  "item.project_theia.diamond_powder": "Алмазная пыль",
 
 
   "item.project_theia.aluminium_ingot": "Алюминиевый слиток",

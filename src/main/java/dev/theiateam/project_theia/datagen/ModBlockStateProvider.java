@@ -23,9 +23,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlock.TUNGSTEN_BLOCK);
         blockWithItem(ModBlock.TIN_BLOCK);
         blockWithItem(ModBlock.NICKEL_BLOCK);
-        blockWithItem(ModBlock.STANNITE_ORE);
 
+        blockWithItem(ModBlock.STANNITE_ORE);
         blockWithItem(ModBlock.DEEPSLATE_STANNITE_ORE);
+
+        blockWithItem(ModBlock.PRIMITIVE_CRUSHER_WORKBENCH);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

@@ -30,9 +30,9 @@ public class ModItems {
     public static final DeferredItem<Item> CHROMIUM = ITEMS.registerItem("chromium", props -> new Item(props.stacksTo(64)));
 
 
-    public static final DeferredItem<Item> IRON_DUST = ITEMS.registerItem("iron_dust", props -> new Item(props.stacksTo(64)));
+    public static final DeferredItem<Item> IRON_POWDER = ITEMS.registerItem("iron_powder", props -> new Item(props.stacksTo(64)));
     public static final DeferredItem<Item> COPPER_POWDER = ITEMS.registerItem("copper_powder", props -> new Item(props.stacksTo(64)));
-    public static final DeferredItem<Item> GOLD_DUST = ITEMS.registerItem("gold_dust", props -> new Item(props.stacksTo(64)));
+    public static final DeferredItem<Item> GOLD_POWDER = ITEMS.registerItem("gold_powder", props -> new Item(props.stacksTo(64)));
     public static final DeferredItem<Item> DIAMOND_POWDER = ITEMS.registerItem("diamond_powder", props -> new Item(props.stacksTo(64)));
 
     //MINERALS

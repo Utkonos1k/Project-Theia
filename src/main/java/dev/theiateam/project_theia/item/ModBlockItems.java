@@ -25,4 +25,8 @@ public class ModBlockItems {
     public static final DeferredItem<BlockItem> STANNITE_ORE = ITEMS.registerSimpleBlockItem("stannite_ore", ModBlock.STANNITE_ORE);
     public static final DeferredItem<BlockItem> DEEPSLATE_STANNITE_ORE = ITEMS.registerSimpleBlockItem("deepslate_stannite_ore", ModBlock.DEEPSLATE_STANNITE_ORE);
 
+    //OTHER
+
+    public static final DeferredItem<BlockItem> PRIMITIVE_CRUSHER_WORKBENCH = ITEMS.registerSimpleBlockItem("primitive_crusher_workbench", ModBlock.PRIMITIVE_CRUSHER_WORKBENCH);
+
 }

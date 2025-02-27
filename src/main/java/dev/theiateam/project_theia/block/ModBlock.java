@@ -1,18 +1,14 @@
 package dev.theiateam.project_theia.block;
 
-import dev.theiateam.project_theia.item.ModItems;
+import dev.theiateam.project_theia.block.custom.PrimitiveCrusherWorkbench;
 import dev.theiateam.project_theia.main.ProjectTheia;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -27,7 +23,11 @@ public class    ModBlock {
     //public static final DeferredBlock<Block> EXAMPLE_BLOCK = registerBlock("example_block", .mapColor(MapColor.STONE).destroyTime(-1f));
 
 
+
+
+
     //ORES
+
 
 
     public static final  DeferredBlock<Block> STANNITE_ORE = registerBlock("stannite_ore",
@@ -49,7 +49,11 @@ public class    ModBlock {
     ));
 
 
+
+
+
     //MATERIAL BLOCKS
+
 
 
     public static final  DeferredBlock<Block> ALUMINIUM_BLOCK = registerBlock("aluminium_block",
@@ -108,6 +112,23 @@ public class    ModBlock {
                     .requiresCorrectToolForDrops()
 
     ));
+
+
+
+
+
+    //FUNCTIONAL BLOCKS
+
+
+
+    public static final  DeferredBlock<Block> PRIMITIVE_CRUSHER_WORKBENCH = registerBlock("primitive_crusher_workbench",
+            () -> new PrimitiveCrusherWorkbench(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(ProjectTheia.MOD_ID, "primitive_crusher_workbench")))
+                    .sound(SoundType.STONE)
+                    .destroyTime(20.0f)
+                    .explosionResistance(120.0f)
+                    .requiresCorrectToolForDrops()
+
+            ));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

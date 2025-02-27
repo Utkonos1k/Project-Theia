@@ -19,9 +19,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //MATERIALS
 
-        basicItem(ModItems.IRON_DUST.get());
+        basicItem(ModItems.IRON_POWDER.get());
         basicItem(ModItems.COPPER_POWDER.get());
-        basicItem(ModItems.GOLD_DUST.get());
+        basicItem(ModItems.GOLD_POWDER.get());
         basicItem(ModItems.DIAMOND_POWDER.get());
 
         basicItem(ModItems.ALUMINIUM_INGOT.get());
@@ -42,7 +42,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //BLOCKITEMS
 
-
+        withExistingParent(String.valueOf(ModBlockItems.PRIMITIVE_CRUSHER_WORKBENCH.get()), modLoc("block/primitive_crusher_workbench"));
 
         //MATERIAL BLOCKS
 
