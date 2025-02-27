@@ -42,4 +42,5 @@ public class ModItems {
 
     public static final DeferredItem<Item> STANNITE_POWDER = ITEMS.registerItem("stannite_powder", props -> new Item(props.stacksTo(64)));
 
+
 }

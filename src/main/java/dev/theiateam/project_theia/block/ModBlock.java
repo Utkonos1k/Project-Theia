@@ -24,7 +24,7 @@ public class    ModBlock {
 
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ProjectTheia.MOD_ID);
 
-//    public static final DeferredBlock<Block> EXAMPLE_BLOCK = registerBlock("example_block", .mapColor(MapColor.STONE).destroyTime(-1f));
+    //public static final DeferredBlock<Block> EXAMPLE_BLOCK = registerBlock("example_block", .mapColor(MapColor.STONE).destroyTime(-1f));
 
 
     //ORES

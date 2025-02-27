@@ -43,12 +43,63 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes() {
-        shaped(RecipeCategory.BUILDING_BLOCKS, ModBlock.LEAD_BLOCK.get())
-                .pattern("BBB")
-                .pattern("BBB")
-                .pattern("BBB")
-                .define('B', ModItems.LEAD_INGOT.get())
+
+
+        //BLOCKS
+
+
+        shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlock.ALUMINIUM_BLOCK.get())
+                .requires(ModItems.ALUMINIUM_INGOT, 9)
+                .unlockedBy("has_aluminium", has(ModItems.ALUMINIUM_INGOT)).save(this.output);
+
+        shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlock.CHROMIUM_BLOCK.get())
+                .requires(ModItems.CHROMIUM, 9)
+                .unlockedBy("has_chromium", has(ModItems.CHROMIUM)).save(this.output);
+
+        shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlock.LEAD_BLOCK.get())
+                .requires(ModItems.LEAD_INGOT, 9)
                 .unlockedBy("has_lead", has(ModItems.LEAD_INGOT)).save(this.output);
 
+        shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlock.NICKEL_BLOCK.get())
+                .requires(ModItems.NICKEL_INGOT, 9)
+                .unlockedBy("has_nickel", has(ModItems.NICKEL_INGOT)).save(this.output);
+
+        shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlock.TIN_BLOCK.get())
+                .requires(ModItems.TIN_INGOT, 9)
+                .unlockedBy("has_tin", has(ModItems.TIN_INGOT)).save(this.output);
+
+        shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlock.TUNGSTEN_BLOCK.get())
+                .requires(ModItems.TUNGSTEN, 9)
+                .unlockedBy("has_tungsten", has(ModItems.TUNGSTEN)).save(this.output);
+
+
+        //BLOCK TO INGOT
+
+
+        shapeless(RecipeCategory.MISC, ModItems.ALUMINIUM_INGOT.get(), 9)
+                .requires(ModBlock.ALUMINIUM_BLOCK)
+                .unlockedBy("has_aluminium", has(ModItems.ALUMINIUM_INGOT)).save(this.output);
+
+        shapeless(RecipeCategory.MISC, ModItems.CHROMIUM.get(), 9)
+                .requires(ModBlock.CHROMIUM_BLOCK)
+                .unlockedBy("has_chromium", has(ModItems.CHROMIUM)).save(this.output);
+
+        shapeless(RecipeCategory.MISC, ModItems.LEAD_INGOT.get(), 9)
+                .requires(ModBlock.LEAD_BLOCK)
+                .unlockedBy("has_lead", has(ModItems.LEAD_INGOT)).save(this.output);
+
+        shapeless(RecipeCategory.MISC, ModItems.NICKEL_INGOT.get(), 9)
+                .requires(ModBlock.NICKEL_BLOCK)
+                .unlockedBy("has_nickel", has(ModItems.NICKEL_INGOT)).save(this.output);
+
+        shapeless(RecipeCategory.MISC, ModItems.TIN_INGOT.get(), 9)
+                .requires(ModBlock.TIN_BLOCK)
+                .unlockedBy("has_tin", has(ModItems.TIN_INGOT)).save(this.output);
+
+        shapeless(RecipeCategory.MISC, ModItems.TUNGSTEN.get(), 9)
+                .requires(ModBlock.TUNGSTEN_BLOCK)
+                .unlockedBy("has_tungsten", has(ModItems.TUNGSTEN)).save(this.output);
+
     }
+
 }
