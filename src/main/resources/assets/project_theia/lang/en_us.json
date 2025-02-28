@@ -33,6 +33,8 @@
 
   "block.project_theia.primitive_crusher_workbench": "Primitive crusher",
 
+  "item.project_theia.bonk_bat": "Bonk Bat",
+
   "ItemGroup.project_theia_item_tab": "PT Items",
   "ItemGroup.project_theia_block_tab": "PT Block"
 }

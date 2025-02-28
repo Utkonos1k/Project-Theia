@@ -1,5 +1,6 @@
 package dev.theiateam.project_theia.item;
 
+import dev.theiateam.project_theia.item.custom.BonkBatItem;
 import dev.theiateam.project_theia.main.ProjectTheia;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
@@ -12,6 +13,11 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ProjectTheia.MOD_ID);
+
+    //INSTRUMENT
+
+
+    public static final DeferredItem<Item> BONK_BAT = ITEMS.registerItem("bonk_bat", props -> new BonkBatItem(props.durability(32)));
 
 
     //MATERIALS

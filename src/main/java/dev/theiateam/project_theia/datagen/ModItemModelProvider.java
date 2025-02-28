@@ -5,6 +5,7 @@ import dev.theiateam.project_theia.item.ModBlockItems;
 import dev.theiateam.project_theia.item.ModItems;
 import dev.theiateam.project_theia.main.ProjectTheia;
 import net.minecraft.data.PackOutput;
+import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
@@ -16,6 +17,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        //INSTRUMENTS
+
+        basicItem(ModItems.BONK_BAT.get());
 
         //MATERIALS
 

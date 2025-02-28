@@ -15,7 +15,7 @@ public class ModTabs {
 
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_IND_ITEM_TAB =
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_THEIA_ITEM_TAB =
             CREATIVE_TABS.register("project_theia_item_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("ItemGroup.project_theia_item_tab"))
                     .icon(() -> ModItems.TIN_INGOT.get().getDefaultInstance())
@@ -44,8 +44,10 @@ public class ModTabs {
                         output.accept(ModItems.STANNITE.get());
                         output.accept(ModItems.STANNITE_POWDER.get());
 
+                        output.accept(ModItems.BONK_BAT);
+
                     }).build());
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_IND_BLOCK_TAB =
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> PROJECT_THEIA_BLOCK_TAB =
             CREATIVE_TABS.register("project_theia_block_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable("ItemGroup.project_theia_block_tab"))
                     .icon(() -> ModBlockItems.TIN_BLOCK.get().getDefaultInstance())
