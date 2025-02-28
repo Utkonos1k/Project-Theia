@@ -6,16 +6,26 @@
 
 
   "item.project_theia.aluminium_ingot": "Алюмінієвий злиток",
+  "block.project_theia.aluminium_block": "Алюмінієвий блок",
+  "block.project_theia.aluminium_powder": "Алюмінієвий пил",
 
   "item.project_theia.lead_ingot": "Свинцевий злиток",
+  "block.project_theia.lead_block": "Свинцевий блок",
+  "block.project_theia.lead_powder": "Свинцевий пил",
 
   "item.project_theia.nickel_ingot": "Нікелєвий злиток",
+  "block.project_theia.nickel_block": "Нікелєвий блок",
+  "block.project_theia.nickel_powder": "Нікелєвий пил",
 
   "item.project_theia.tungsten": "Вольфрам",
+  "block.project_theia.tungsten_block": "Вольфрамовий блок",
 
   "item.project_theia.tin_ingot": "Олов'яний злиток",
+  "block.project_theia.tin_block": "Олов'яний блок",
+  "block.project_theia.tin_powder": "Олов'яний пил",
 
   "item.project_theia.chromium": "Хром",
+  "block.project_theia.chromium_block": "Хромовий блок",
 
 
   "item.project_theia.stannite": "Станін",
@@ -24,12 +34,6 @@
   "block.project_theia.stannite_ore": "Станінова руда",
   "block.project_theia.deepslate_stannite_ore": "Глибокосланцієва станінова руда",
 
-  "block.project_theia.aluminium_block": "Алюмінієвий блок",
-  "block.project_theia.lead_block": "Свинцевий блок",
-  "block.project_theia.nickel_block": "Нікелєвий блок",
-  "block.project_theia.tungsten_block": "Вольфрамовий блок",
-  "block.project_theia.tin_block": "Олов'яний блок",
-  "block.project_theia.chromium_block": "Хромовий блок",
 
   "block.project_theia.primitive_crusher_workbench": "Примітивна дробилка",
 

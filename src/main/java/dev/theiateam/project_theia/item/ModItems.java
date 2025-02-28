@@ -38,6 +38,9 @@ public class ModItems {
 
     public static final DeferredItem<Item> IRON_POWDER = ITEMS.registerItem("iron_powder", props -> new Item(props.stacksTo(64)));
     public static final DeferredItem<Item> COPPER_POWDER = ITEMS.registerItem("copper_powder", props -> new Item(props.stacksTo(64)));
+    public static final DeferredItem<Item> LEAD_POWDER = ITEMS.registerItem("lead_powder", props -> new Item(props.stacksTo(64)));
+    public static final DeferredItem<Item> NICKEL_POWDER = ITEMS.registerItem("nickel_powder", props -> new Item(props.stacksTo(64)));
+    public static final DeferredItem<Item> ALUMINIUM_POWDER = ITEMS.registerItem("aluminium_powder", props -> new Item(props.stacksTo(64)));
     public static final DeferredItem<Item> TIN_POWDER = ITEMS.registerItem("tin_powder", props -> new Item(props.stacksTo(64)));
     public static final DeferredItem<Item> GOLD_POWDER = ITEMS.registerItem("gold_powder", props -> new Item(props.stacksTo(64)));
     public static final DeferredItem<Item> DIAMOND_POWDER = ITEMS.registerItem("diamond_powder", props -> new Item(props.stacksTo(64)));

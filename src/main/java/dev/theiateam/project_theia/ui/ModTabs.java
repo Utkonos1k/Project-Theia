@@ -25,6 +25,9 @@ public class ModTabs {
 
                         output.accept(ModItems.IRON_POWDER.get());
                         output.accept(ModItems.COPPER_POWDER.get());
+                        output.accept(ModItems.LEAD_POWDER.get());
+                        output.accept(ModItems.NICKEL_POWDER.get());
+                        output.accept(ModItems.ALUMINIUM_POWDER.get());
                         output.accept(ModItems.TIN_POWDER.get());
                         output.accept(ModItems.GOLD_POWDER.get());
                         output.accept(ModItems.DIAMOND_POWDER.get());
