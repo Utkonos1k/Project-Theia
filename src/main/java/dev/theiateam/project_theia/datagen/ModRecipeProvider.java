@@ -44,6 +44,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
     @Override
     protected void buildRecipes() {
 
+        List<ItemLike> ALUMINIUM_SMELTABLES = List.of();
+        List<ItemLike> STANNITE_SMELTABLES = List.of(ModItems.STANNITE, ModBlock.STANNITE_ORE, ModBlock.DEEPSLATE_STANNITE_ORE);
+
 
         //BLOCKS
 
@@ -100,6 +103,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlock.TUNGSTEN_BLOCK)
                 .unlockedBy("has_tungsten", has(ModItems.TUNGSTEN)).save(this.output);
 
+        oreSmelting(STANNITE_SMELTABLES, RecipeCategory.MISC, ModItems.STANNITE.get(), 0.25f, 200, "stannite");
     }
-
 }
