@@ -26,18 +26,18 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         basicItem(ModItems.IRON_POWDER.get());
         basicItem(ModItems.COPPER_POWDER.get());
-        basicItem(ModItems.LEAD_POWDER.get());
-        basicItem(ModItems.NICKEL_POWDER.get());
-        basicItem(ModItems.ALUMINIUM_POWDER.get());
-        basicItem(ModItems.TIN_POWDER.get());
         basicItem(ModItems.GOLD_POWDER.get());
         basicItem(ModItems.DIAMOND_POWDER.get());
 
         basicItem(ModItems.ALUMINIUM_INGOT.get());
+        basicItem(ModItems.ALUMINIUM_POWDER.get());
         basicItem(ModItems.LEAD_INGOT.get());
+        basicItem(ModItems.LEAD_POWDER.get());
         basicItem(ModItems.NICKEL_INGOT.get());
-        basicItem(ModItems.TUNGSTEN.get());;
+        basicItem(ModItems.NICKEL_POWDER.get());
         basicItem(ModItems.TIN_INGOT.get());
+        basicItem(ModItems.TIN_POWDER.get());
+        basicItem(ModItems.TUNGSTEN.get());;
         basicItem(ModItems.CHROMIUM.get());
 
 
