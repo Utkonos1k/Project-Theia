@@ -1,6 +1,5 @@
 package dev.theiateam.project_theia.block;
 
-import dev.theiateam.project_theia.block.custom.PrimitiveCrusherWorkbench;
 import dev.theiateam.project_theia.block.entity.EntityPrimitiveCrusherWorkbench;
 import dev.theiateam.project_theia.main.ProjectTheia;
 
@@ -16,7 +15,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-public class    ModBlock {
+public class ModBlock {
 
 
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ProjectTheia.MOD_ID);

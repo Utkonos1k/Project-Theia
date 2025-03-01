@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Supplier;
 
 public class ModBlockEntityTypes {
-    private static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITY_TYPES =
+    public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITY_TYPES =
             DeferredRegister.create(Registries.BLOCK_ENTITY_TYPE, ProjectTheia.MOD_ID);
 
     public static final Supplier<BlockEntityType<PrimitiveCrusherWorkbenchEntity>> PRIMITIVE_CRUSHER_WORKBENCH_ENTITY = BLOCK_ENTITY_TYPES.register(
