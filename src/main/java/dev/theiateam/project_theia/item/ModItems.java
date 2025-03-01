@@ -18,7 +18,7 @@ public class ModItems {
     //INSTRUMENT
 
 
-    public static final DeferredItem<Item> BONK_BAT = ITEMS.registerItem("bonk_bat", props -> new SwordItem(props.durability(32)));
+    public static final DeferredItem<Item> BONK_BAT = ITEMS.registerItem("bonk_bat", props -> new BonkBatItem(props.durability(32)));
 
 
     //MATERIALS
