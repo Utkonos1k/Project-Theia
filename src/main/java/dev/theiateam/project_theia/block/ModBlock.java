@@ -1,6 +1,7 @@
 package dev.theiateam.project_theia.block;
 
 import dev.theiateam.project_theia.block.custom.PrimitiveCrusherWorkbench;
+import dev.theiateam.project_theia.block.entity.EntityPrimitiveCrusherWorkbench;
 import dev.theiateam.project_theia.main.ProjectTheia;
 
 import net.minecraft.core.registries.Registries;
@@ -121,8 +122,8 @@ public class    ModBlock {
 
 
 
-    public static final  DeferredBlock<Block> PRIMITIVE_CRUSHER_WORKBENCH = registerBlock("primitive_crusher_workbench",
-            () -> new PrimitiveCrusherWorkbench(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(ProjectTheia.MOD_ID, "primitive_crusher_workbench")))
+    public static final  DeferredBlock<EntityPrimitiveCrusherWorkbench> PRIMITIVE_CRUSHER_WORKBENCH = BLOCKS.register("primitive_crusher_workbench",
+            () -> new EntityPrimitiveCrusherWorkbench(BlockBehaviour.Properties.of().setId(ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(ProjectTheia.MOD_ID, "primitive_crusher_workbench")))
                     .sound(SoundType.STONE)
                     .destroyTime(20.0f)
                     .explosionResistance(120.0f)
