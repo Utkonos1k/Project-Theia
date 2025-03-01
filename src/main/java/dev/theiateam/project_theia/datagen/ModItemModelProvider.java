@@ -51,8 +51,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         //BLOCKITEMS
 
-        withExistingParent(String.valueOf(ModBlockItems.PRIMITIVE_CRUSHER_WORKBENCH.get()), modLoc("block/primitive_crusher_workbench"));
-
         //MATERIAL BLOCKS
 
         withExistingParent(String.valueOf(ModBlockItems.ALUMINIUM_BLOCK.get()), modLoc("block/aluminium_block"));

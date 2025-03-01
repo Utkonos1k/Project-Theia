@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "project_theia:block/primitive_project "
+    }
+  }
+}

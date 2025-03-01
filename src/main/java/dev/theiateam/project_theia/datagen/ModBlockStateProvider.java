@@ -26,8 +26,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlock.STANNITE_ORE);
         blockWithItem(ModBlock.DEEPSLATE_STANNITE_ORE);
-
-        blockWithItem(ModBlock.PRIMITIVE_CRUSHER_WORKBENCH);
+        simpleBlockWithItem(ModBlock.PRIMITIVE_CRUSHER_WORKBENCH, );
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {
