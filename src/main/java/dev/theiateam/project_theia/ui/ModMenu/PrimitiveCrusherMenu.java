@@ -6,9 +6,11 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.ItemStack;
 
+import static dev.theiateam.project_theia.ui.ModMenu.ModMenuTypes.PRIMITIVE_CRUSHER_MENU;
+
 public class PrimitiveCrusherMenu extends AbstractContainerMenu {
     public PrimitiveCrusherMenu(int containerId, Inventory playerInv) {
-        super(PrimitiveCrusherMenu.get(), containerId);
+        super(PRIMITIVE_CRUSHER_MENU.get(), containerId);
     }
 
     @Override
