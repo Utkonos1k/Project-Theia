@@ -10,6 +10,8 @@ import static dev.theiateam.project_theia.block.ModBlock.PRIMITIVE_CRUSHER_WORKB
 import static dev.theiateam.project_theia.ui.ModMenu.ModMenuTypes.PRIMITIVE_CRUSHER_MENU;
 
 public class PrimitiveCrusherMenu extends AbstractContainerMenu {
+    private ContainerLevelAccess access;
+
     public PrimitiveCrusherMenu(int containerId, Inventory playerInventory, ContainerLevelAccess aNull) {
         super(PRIMITIVE_CRUSHER_MENU.get(), containerId);
     }

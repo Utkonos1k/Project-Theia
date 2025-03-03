@@ -1,5 +1,6 @@
 package dev.theiateam.project_theia.item.custom;
 
+import net.minecraft.core.Rotations;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
@@ -16,6 +17,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Rotation;
+import net.neoforged.neoforge.client.model.generators.ModelBuilder;
 
 public class BonkBatItem extends Item {
     public BonkBatItem(Properties properties) {
@@ -26,12 +29,15 @@ public class BonkBatItem extends Item {
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         Level level = target.level();
 
-        target.hurt(level.damageSources().mobAttack(attacker), 6.0f);
+        if (!level.isClientSide) {
+            target.hurt(level.damageSources().mobAttack(attacker), 6.0f);
 
-        target.playSound(SoundEvents.ANVIL_LAND, 1f, 1f);
+            target.playSound(SoundEvents.ANVIL_LAND, 1f, 1f);
 
-        stack.hurtAndBreak(1, attacker, EquipmentSlot.MAINHAND);
-        return super.hurtEnemy(stack, target, attacker);
+            stack.hurtAndBreak(1, attacker, EquipmentSlot.MAINHAND);
+            return super.hurtEnemy(stack, target, attacker);
+        }
+        return false;
     }
 
 
