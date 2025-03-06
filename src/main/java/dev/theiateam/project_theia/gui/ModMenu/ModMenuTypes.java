@@ -1,4 +1,4 @@
-package dev.theiateam.project_theia.ui.ModMenu;
+package dev.theiateam.project_theia.gui.ModMenu;
 
 import dev.theiateam.project_theia.main.ProjectTheia;
 import net.minecraft.core.registries.Registries;

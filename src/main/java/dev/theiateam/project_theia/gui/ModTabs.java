@@ -1,4 +1,4 @@
-package dev.theiateam.project_theia.ui;
+package dev.theiateam.project_theia.gui;
 
 import dev.theiateam.project_theia.item.ModBlockItems;
 import dev.theiateam.project_theia.item.ModItems;

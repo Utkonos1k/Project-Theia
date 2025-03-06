@@ -4,7 +4,7 @@ import dev.theiateam.project_theia.block.ModBlock;
 import dev.theiateam.project_theia.block.entity.ModBlockEntityTypes;
 import dev.theiateam.project_theia.item.ModBlockItems;
 import dev.theiateam.project_theia.item.ModItems;
-import dev.theiateam.project_theia.ui.ModTabs;
+import dev.theiateam.project_theia.gui.ModTabs;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
