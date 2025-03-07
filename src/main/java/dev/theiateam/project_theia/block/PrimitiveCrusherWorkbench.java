@@ -1,15 +1,12 @@
-package dev.theiateam.project_theia.block.entity;
+package dev.theiateam.project_theia.block;
 
 import com.mojang.serialization.MapCodec;
-import dev.theiateam.project_theia.gui.ModMenu.PrimitiveCrusherMenu;
+import dev.theiateam.project_theia.block.entity.PrimitiveCrusherWorkbenchEntity;
 import net.minecraft.core.BlockPos;
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.MenuProvider;
-import net.minecraft.world.SimpleMenuProvider;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.BlockGetter;
@@ -23,15 +20,14 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.neoforged.neoforge.client.event.RenderTooltipEvent;
 
 import javax.annotation.Nullable;
 
-public class EntityPrimitiveCrusherWorkbench extends HorizontalDirectionalBlock implements EntityBlock {
-    public static final MapCodec<EntityPrimitiveCrusherWorkbench> CODEC = simpleCodec(EntityPrimitiveCrusherWorkbench::new);
+public class PrimitiveCrusherWorkbench extends HorizontalDirectionalBlock implements EntityBlock {
+    public static final MapCodec<PrimitiveCrusherWorkbench> CODEC = simpleCodec(PrimitiveCrusherWorkbench::new);
     private static final VoxelShape SHAPE = Block.box(0,0,0,16,10,16);
 
-    public EntityPrimitiveCrusherWorkbench(Properties properties){
+    public PrimitiveCrusherWorkbench(Properties properties){
         super(properties);
     }
 
@@ -45,16 +41,16 @@ public class EntityPrimitiveCrusherWorkbench extends HorizontalDirectionalBlock 
         return CODEC;
     }
 
-    @Override
-    public @Nullable MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
-        BlockEntity blockEntity = level.getBlockEntity(pos);
-        if (blockEntity instanceof PrimitiveCrusherWorkbenchEntity) {
-            return new SimpleMenuProvider((id, inventory, player) ->
-                    new PrimitiveCrusherMenu(id, inventory, RenderTooltipEvent.),
-                    Component.translatable("container.primitive_crusher"));
-        }
-        return null;
-    }
+//    @Override
+//    public @Nullable MenuProvider getMenuProvider(BlockState state, Level level, BlockPos pos) {
+//        BlockEntity blockEntity = level.getBlockEntity(pos);
+//        if (blockEntity instanceof PrimitiveCrusherWorkbenchEntity) {
+//            return new SimpleMenuProvider((id, inventory, player) ->
+//                    new PrimitiveCrusherMenu(id, inventory, RenderTooltipEvent.),
+//                    Component.translatable("container.primitive_crusher"));
+//
+//       return null;
+//    }
 
     @Nullable
     @Override
